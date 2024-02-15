@@ -1,0 +1,73 @@
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 33.3333%;
+    height: 100%;
+    background-color: white;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .sidebar.open {
+    transform: translateX(0);
+  }
+  
+  .sidebar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .company-logo {
+    max-width: 100px;
+    margin-bottom: 1rem;
+  }
+  
+  .menu-icon {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .sidebar-links,
+  .course-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .course-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .course-circle {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 0.5rem;
+  }
+  
+  .join-course-btn {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 100%;
+    }
+  
+    .menu-icon {
+      display: block;
+    }
+  }
+  

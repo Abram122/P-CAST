@@ -1,0 +1,26 @@
+.col-lg-9{
+    background-color: whitesmoke;
+}
+.side-nav{
+    background-color: rgb(240, 239, 239);
+}
+.lesson{
+    padding: 5px;
+    transition: 0.5s;
+    font-size: 30px;
+}
+.lesson:hover{
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+}
+.lesson:hover{
+    transition: 0.5s;
+    background-color: white;
+    color: white;
+}
+@media(max-width:992px){
+    .side-nav{
+        display: none;
+    }
+}

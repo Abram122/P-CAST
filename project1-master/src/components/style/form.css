@@ -1,0 +1,12 @@
+.form{
+    height: 100vh;
+}
+.form img{
+    height: 100vh;
+    width: 90%;
+}
+@media (max-width:992px) {
+    .div-img{
+        display: none;
+    }
+}
